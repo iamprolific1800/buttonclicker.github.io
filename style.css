@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 850;
+    margin: auto;
+}
+
+.top-side {
+    background-color: dimgrey;
+    height: 85px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding: 8px 16px;
+    border: 4px;
+    box-shadow: 4px 4px;
+}
+
+.row {
+    display: flex;
+}
+
+.search {
+    flex: 4px;
+    font-size: 2rem;
+    padding: 10px 15px;
+    margin: 0 120px;
+}
+
+.login {
+    background-color: lightblue;
+    box-shadow: 4px 4px;
+}
+
+.box-2 {
+    flex: 4;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+.box-1 {
+    flex: 4px;
+}
+
+.left-side {
+    flex: 2;
+    text-align: center;
+}
+
+.left-side p {
+    margin: 10px 0px;
+}
+
+.definition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
